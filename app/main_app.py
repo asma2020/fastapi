@@ -18,7 +18,7 @@ from .routers import post, user, oauth,vote
 # setting = Setting()
 
 models.Base.metadata.create_all(bind=engine)
-
+# alembic init alembic
 app = FastAPI()
 
 origins = ["*"]
